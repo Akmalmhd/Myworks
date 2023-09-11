@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: rgb(238, 237, 237);
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+}
+
+.left-section{
+    width: 55%;
+    float: left;
+}
+
+.fb-logo{
+    height: 106px;
+    margin-left: 150px;
+    margin-top: 190px;
+}
+
+.left-section h2{
+    font-size: 28px;
+    font-weight: normal;
+    margin-left: 180px;
+    margin-top: -10px;
+    float: left;
+}
+
+.right-section{
+    width:45%;
+    float: left;
+}
+
+.main-container{
+    margin-top: 150px;
+    background-color: #fff;
+    width: 400px;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: yellowgreen;
+}
+
+.email-pass{
+    font-size: 29px;
+    padding: 6px 16px;
+    margin-left: 3px;
+}
+
+.email{
+    margin-top: 10px;
+    height: 50px;
+    width: 360px;
+    border: solid;
+    border-width: thin;
+    border-color: #1d2129;
+    border-radius: 0.4rem;
+    border-color: lightgray;
+}
+
+.password{
+    height: 50px;
+    width: 360px;
+    border: solid;
+    border-width: thin;
+    border-radius: 0.4rem;
+    border-color: lightgray;
+}
+
+::placeholder{
+    color: #1d2129;
+    font-size: 17px;
+    opacity: 0.6;
+    padding-left: 10px ;
+}
+
+.login-btn{
+    padding: 6px 16px;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+
+.button-style{
+    height: 50px;
+    width: 360px;
+    border: solid;
+    border-radius: 0.4rem;
+    background-color: #1877f2;
+    border-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+a{
+    margin-left: 135px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.line{
+    width: 360px;
+    margin-left: 19px;
+    opacity: 0.5;
+}
+
+.create-style{
+    height: 50px;
+    width: 220px;
+    margin-left: 90px;
+    color: #fff;
+    border: solid;
+    border-radius: .4rem;
+    background-color: #04d126;
+    border-color: #04d126;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.create-style:hover{
+    background-color: #08af24;
+    border-color: #08af24;
+}
+
+p{
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: #fff;
+    height: 175px;
+    padding: 5px 100px;
+}
+
+.footer p{
+    color: #1d2129;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+hr{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
