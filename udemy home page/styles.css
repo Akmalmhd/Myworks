@@ -1,0 +1,383 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 1500px;
+}
+
+.header{
+    width: 100%;
+    height: 73px;
+    background-color: #fff;
+}
+
+.logo-img{
+    padding-top: 1.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    float: left;
+}
+
+.items{
+    float: left;
+}
+
+img.search{
+    position: absolute;
+    width: 1rem;
+    top: 2.25rem;
+    left: 15rem;
+    opacity: 0.6;
+}
+
+
+div.search-box input ~ span{
+    position: absolute;
+    left: 17rem;
+    top: 2rem;
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.inline-elements{
+    float: left;
+    padding-right: 1.4rem;
+    padding-top: 1.8rem;
+    font-size: 0.9rem;
+    color: #2d2f31;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.search-box{
+    float: left;
+    padding-top: 1.2rem;
+}
+
+
+div.search-box input{
+    width: 550px;
+    height: 45px;
+    margin-right: 1.4rem;
+    background-color: #f7f9fa;
+    border-radius: 1.9rem;
+    border: solid;
+    border-width: thin;
+    border-color: #2d2f31;
+}
+
+.icons{
+    float: left;
+    width: 22px;
+    height: 22px;
+    padding-top: 1.8rem;
+    padding-right: 1.4rem;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.icons:hover{
+    opacity: 1;
+}
+
+img.cart{
+    padding-top: 3px;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+.spacing{
+    padding-left: 107px;
+    text-align: center;
+}
+
+.outer-elements{
+    float: left;
+    padding-right: 1.4rem;
+    font-size: 0.9rem;
+    color: #2d2f31;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5624d0;
+}
+
+.main-content{
+    width: 100%;
+    height: auto;
+}
+
+.wallpaper{
+    padding-top: 2rem;
+}
+
+.learning{
+    justify-content: space-between;
+    display: flex;
+    color: #2d2f31;
+}
+
+div.learning h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1rem;
+}
+
+div.learning a{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    font-weight: bolder;
+    color: rgb(55, 55, 252);
+}
+
+div.learning a:hover{
+    color: #0000ff;
+}
+
+.ad-banner{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+}
+
+div.ad-banner p{
+    padding: 1.5rem 3rem;
+    color: #fff;
+    float: left;
+}
+
+.dismiss-btn{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    border: solid;
+    border-width: thin;
+    width: 80px;
+}
+
+.Get-btn{
+    background-color: #fff;
+    color: #2d2f31;
+    border: none;
+    font-weight: 800;
+    width: 200px;
+}
+
+.dismiss-btn:hover{
+    background-color: #2d2f31;
+}
+
+.Get-btn:hover{
+    background-color: #d1d0d0;
+}
+
+div.ad-banner input{
+    float: right;
+    height: 2.7rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+div.learning1 h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.learning1{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    color: #2d2f31;
+}
+
+div.main-box{
+    width: 1250px; 
+    height: 320px;
+    border-color: #000;
+    background-color: #fff;
+    border: solid rgba(150, 150, 150, 0.5);
+    border-width: thin;
+    margin: 0rem 1rem;
+    display: flex;
+    cursor: pointer;
+}
+
+div.main-box:hover{
+    background-color: #ececec;
+}
+
+.image-s{
+    padding: 1.5rem;   
+}
+
+.suggestion-box{
+    display: flex;
+}
+
+div.description h1{
+    color: #2d2f31;
+    font-size: 24px;
+}
+
+.para1{
+    color: #2d2f31;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.para2{
+    color: #2d2f31;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+div.description span{
+    font-weight: bold;
+    
+}
+
+div.star{
+    display: flex;
+}
+
+.add-star{
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    padding-top: 5px;
+}
+
+div.price{
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+h2.recommend{
+    margin-left: 1rem;
+    color: #2d2f31;
+}
+
+
+div.recommended-section{
+    margin-left: 1rem;
+    width: 100%;
+    height: 320px;
+    color: #2d2f31;
+}
+
+div.course-card{
+    width: 240px;
+    height: 320px;
+    padding-right: 8px;
+    display: inline-block;
+}
+
+
+div.image-card img{
+    cursor: pointer;
+}
+
+div.image-card img:hover{
+    opacity: 0.8;
+}
+
+
+div.course-head{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+div.tutor{
+    font-weight: normal;
+    font-size:12px;
+}
+
+div.card-price{
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+div.topics-box{
+    width: 100%;
+    height: 160px;
+    margin: 0rem 0.6rem;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.topics{
+    width: 18%;
+    height: 40px;
+    padding-top: 20px;
+    background-color:#fff;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-color: #000;
+    border: solid rgba(150, 150, 150, 0.5);
+    border-width: thin;
+    text-decoration: none;
+    color: #2d2f31;
+}
+
+.topics:hover{
+    background-color: #e9e9e9;
+    color: #2d2f31;
+}
+
+div.footer{
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+    background-color: #0f0f0f;
+}
+
+
+div.heading-description{
+    padding: 1rem 2.5rem 0rem;
+    float: left;
+}
+
+div.heading{
+    color: #fff;
+    font-size: larger;
+    font-weight: 700;
+}
+
+div.footer-description{
+    color: #fff;
+    font-size: medium;
+}
+
+.teach-udemy{
+    width: 150px;
+    height: 25px;
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+    border: solid;
+    border-width: thin;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.teach-udemy:hover{
+    background-color:  #2d2f31;
+}
